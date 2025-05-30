@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RiskRadar AI: Interactive Viability Analysis</title>
+    <title>RiskRadar AI: Detailed Interactive Viability Analysis</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
@@ -65,6 +65,7 @@
             70% { transform: scale(1.05); box-shadow: 0 0 0 10px rgba(45, 212, 191, 0); }
             100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(45, 212, 191, 0); }
         }
+        .modal-content-list li { margin-bottom: 0.5rem; }
     </style>
 </head>
 <body class="bg-slate-50 text-slate-800">
@@ -107,12 +108,13 @@
     <section id="hero" class="min-h-screen bg-gradient-to-br from-blue-700 via-blue-600 to-indigo-700 text-white flex items-center justify-center py-20 px-4 fade-in-section">
         <div class="text-center max-w-3xl">
             <h1 class="text-5xl md:text-6xl font-bold mb-6">RiskRadar AI: The Verdict is In</h1>
-            <p class="text-xl md:text-2xl mb-8 text-indigo-100">Streamlining Cybersecurity Compliance with Artificial Intelligence. Analysis reveals a strong market and technological fit.</p>
+            <p class="text-xl md:text-2xl mb-4 text-indigo-100">RiskRadar AI is a proposed Automated Security Documentation Validator designed to leverage Artificial Intelligence to streamline and enhance the efficiency of third-party cybersecurity compliance checks.</p>
+            <p class="text-lg md:text-xl mb-8 text-indigo-200">This viability analysis indicates that North American market conditions are favorable, regulatory pressures are mounting, and technological advancements support the project's core capabilities.</p>
             
             <div class="bg-white/20 backdrop-blur-sm p-8 rounded-xl shadow-2xl mb-10 inline-block">
-                <div class="text-7xl font-bold text-white mb-2"><span class="counter" data-target="7.7">0</span>/10</div>
+                <div class="text-7xl font-bold text-white mb-2"><span class="counter" data-target="7.7" data-decimals="1">0</span>/10</div>
                 <p class="text-2xl text-indigo-100">Overall Viability Score</p>
-                <p class="mt-3 text-sm text-indigo-200">A promising outlook for innovation in automated security documentation validation.</p>
+                <p class="mt-3 text-sm text-indigo-200">A promising outlook for innovation in automated security documentation validation, balancing market opportunity with competitive dynamics.</p>
             </div>
 
             <div class="mb-12">
@@ -120,7 +122,7 @@
             </div>
             
             <a href="#pestel" class="bg-white text-blue-700 font-semibold px-8 py-3 rounded-lg shadow-md hover:bg-blue-50 transition duration-300 text-lg">
-                Explore the Analysis
+                Explore the Detailed Analysis
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline ml-2" viewBox="0 0 20 20" fill="currentColor">
                     <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm-.707-4.707l3.535-3.536a1 1 0 00-1.414-1.414L10 10.586 7.586 8.172a1 1 0 00-1.414 1.414l3.535 3.536a1 1 0 001.414 0z" clip-rule="evenodd" />
                 </svg>
@@ -134,68 +136,68 @@
             <div class="text-center mb-10">
                 <span class="text-2xl font-semibold text-slate-700">Overall PESTEL Score: </span>
                 <span class="text-4xl font-bold text-blue-600"><span class="counter" data-target="8">0</span>/10</span>
-                <p class="text-slate-500 mt-1">The external environment is highly conducive to RiskRadar AI's success.</p>
+                <p class="text-slate-500 mt-1">The external environment is highly conducive to RiskRadar AI's success, with strong regulatory, economic, social, and technological tailwinds.</p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div class="pestel-item bg-slate-100 p-6 rounded-xl shadow-lg cursor-pointer" onclick="showModal('Political', 'Stricter cybersecurity and third-party risk regulations are being imposed by North American regulators (e.g., US SEC new vendor oversight rules, Canadian Bill C-26 for critical infrastructure). Government mandates (e.g., CMMC for U.S. defense contractors, Executive Order on cybersecurity) are driving compliance. These pressures create a favorable environment, increasing demand for automated compliance validation tools.')">
+                <div class="pestel-item bg-slate-100 p-6 rounded-xl shadow-lg cursor-pointer" onclick="showModal('Political Factors', '<ul class=\'list-disc list-inside modal-content-list\'><li>North American regulators are imposing stricter requirements (e.g., US SEC updated Regulation S-P in 2024 for written vendor risk policies, federal banking agencies issued enhanced third-party risk guidance in 2023).</li><li>In Canada, proposed Bill C-26 for critical infrastructure will require operators to mitigate supply chain cyber risks.</li><li>Government mandates drive compliance (e.g., U.S. defense contractors must adhere to CMMC, Executive Order on cybersecurity emphasizes securing software supply chain).</li><li>These political/regulatory pressures effectively mandate improved third-party security due diligence, increasing demand for automated compliance validation tools.</li></ul>')">
                     <div class="flex items-center mb-3">
                         <div class="p-3 rounded-full bg-blue-500 text-white mr-4">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5z" /><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l6.16-3.422A12.083 12.083 0 0112 21.75c-2.673 0-5.19-.932-7.16-2.522L12 14z" /></svg>
                         </div>
                         <h3 class="text-2xl font-semibold text-blue-700">Political</h3>
                     </div>
-                    <p class="text-slate-600">Regulatory push for enhanced third-party risk management. Click to see more.</p>
+                    <p class="text-slate-600">Increasing regulatory mandates for third-party risk oversight. Click for details.</p>
                 </div>
 
-                <div class="pestel-item bg-slate-100 p-6 rounded-xl shadow-lg cursor-pointer" onclick="showModal('Economic', 'Cybersecurity and compliance budgets remain robust. About 80% of organizations planned to increase cybersecurity spending in 2024. SMEs and mid-market firms face budget constraints for compliance staff, making automation appealing (73% of financial institutions have <=2 FTEs for vendor risk). Solutions reducing manual workload have economic appeal.')">
+                <div class="pestel-item bg-slate-100 p-6 rounded-xl shadow-lg cursor-pointer" onclick="showModal('Economic Factors', '<ul class=\'list-disc list-inside modal-content-list\'><li>Cybersecurity and compliance budgets in North America remain robust, though growth has normalized (approx. 8% growth in 2024, ~5% real terms).</li><li>Despite economic uncertainty, 80% of organizations planned to increase cybersecurity spending in 2024.</li><li>52% of companies rank achieving compliance certifications (e.g., SOC 2) as a top security priority.</li><li>91% of companies aim to implement continuous compliance monitoring within five years, signaling investment in automation.</li><li>SMEs and mid-market firms face budget constraints for compliance staff (e.g., 73% of financial institutions have two or fewer FTEs managing vendor risk), making cost-effective automation like RiskRadar AI appealing.</li></ul>')">
                      <div class="flex items-center mb-3">
                         <div class="p-3 rounded-full bg-green-500 text-white mr-4">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
                         </div>
                         <h3 class="text-2xl font-semibold text-green-700">Economic</h3>
                     </div>
-                    <p class="text-slate-600">Steady budgets and ROI focus drive demand for efficiency. Click to see more.</p>
+                    <p class="text-slate-600">Solid budgets for security/compliance; SMEs seek automation for ROI. Click for details.</p>
                 </div>
 
-                <div class="pestel-item bg-slate-100 p-6 rounded-xl shadow-lg cursor-pointer" onclick="showModal('Social', 'High openness to AI: 89% of risk and compliance professionals see AI as a positive force. Over 75% believe AI will be transformational in the next 5 years. Skepticism towards manual vendor assessments (fewer than 10% fully trust static questionnaires) creates an opening for objective AI validators. Workforce is primed to accept automated approaches.')">
+                <div class="pestel-item bg-slate-100 p-6 rounded-xl shadow-lg cursor-pointer" onclick="showModal('Social Factors', '<ul class=\'list-disc list-inside modal-content-list\'><li>High openness and trust in AI-driven automation among risk and compliance professionals (89% see AI as a \\'force for good\\', Thomson Reuters 2024 survey).</li><li>Over 75% believe AI will have a transformational impact on their work in the next five years.</li><li>Current third-party risk practices suffer from low confidence (fewer than 10% of professionals fully trust static vendor assessments like self-reported questionnaires).</li><li>This skepticism toward manual methods could translate into willingness to trust an objective AI validator, provided it demonstrates reliability and transparency.</li><li>The workforce is primed to accept RiskRadar AI as a tool to augment capabilities and enhance trust.</li></ul>')">
                     <div class="flex items-center mb-3">
                         <div class="p-3 rounded-full bg-purple-500 text-white mr-4">
                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.653-.08-.99-.225-1.285A5.002 5.002 0 0012 15c-2.761 0-5 2.239-5 5v2h10zM12 15V9m0 2.221A2.98 2.98 0 009 9c0-1.657 1.343-3 3-3s3 1.343 3 3c0 .778-.295 1.496-.779 2.021M12 9V7m0-6h.008v.008H12V1z" /></svg>
                         </div>
                         <h3 class="text-2xl font-semibold text-purple-700">Social</h3>
                     </div>
-                    <p class="text-slate-600">High acceptance of AI in compliance; demand for trustworthy validation. Click to see more.</p>
+                    <p class="text-slate-600">Professionals embrace AI; current manual methods lack trust. Click for details.</p>
                 </div>
 
-                <div class="pestel-item bg-slate-100 p-6 rounded-xl shadow-lg cursor-pointer" onclick="showModal('Technological', 'Advances in Natural Language Processing (NLP) and Machine Learning are key enablers. Cutting-edge NLP models achieve high accuracy in parsing complex documents, extracting compliance data, and detecting risk-relevant language (e.g., from SOC 2 reports). AI can assess context and flag subtle warnings. Cloud computing and APIs ease integration.')">
+                <div class="pestel-item bg-slate-100 p-6 rounded-xl shadow-lg cursor-pointer" onclick="showModal('Technological Factors', '<ul class=\'list-disc list-inside modal-content-list\'><li>Advances in Natural Language Processing (NLP) and machine learning are key enablers for RiskRadar AI.</li><li>Cutting-edge NLP models (including LLMs) achieve high accuracy in parsing and understanding complex documents (e.g., extracting control measures, dates, exceptions from SOC 2 reports, identifying non-compliance or security gaps).</li><li>AI-based text analysis can assess context and flag subtle warning signs (e.g., ambiguous wording around data handling).</li><li>Technology is already applied in compliance for document classification, key term extraction, and highlighting non-compliance.</li><li>Cloud computing and API integrations allow RiskRadar to plug into company workflows (e.g., ingest documents from vendor portals or GRC systems).</li><li>Continuous innovation in AI will be crucial for maintaining an edge.</li></ul>')">
                      <div class="flex items-center mb-3">
                         <div class="p-3 rounded-full bg-orange-500 text-white mr-4">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" /></svg>
                         </div>
                         <h3 class="text-2xl font-semibold text-orange-700">Technological</h3>
                     </div>
-                    <p class="text-slate-600">NLP and AI advancements enable accurate document validation. Click to see more.</p>
+                    <p class="text-slate-600">Mature NLP/AI enables accurate document parsing and risk identification. Click for details.</p>
                 </div>
 
-                <div class="pestel-item bg-slate-100 p-6 rounded-xl shadow-lg cursor-pointer" onclick="showModal('Environmental (ESG)', 'ESG compliance pressures are intersecting with third-party risk. By 2024, an estimated 75% of vendor risk management programs are expected to track ESG performance. Opportunity for RiskRadar AI to extend validation to ESG reports, codes of conduct, etc. Responsible AI use could be a selling point.')">
+                <div class="pestel-item bg-slate-100 p-6 rounded-xl shadow-lg cursor-pointer" onclick="showModal('Environmental (ESG) Factors', '<ul class=\'list-disc list-inside modal-content-list\'><li>ESG (Environmental, Social, Governance) compliance pressures are increasingly intersecting with third-party risk management.</li><li>By 2024, an estimated 75% of vendor risk management programs are expected to track ESG performance of vendors.</li><li>Companies include criteria like carbon footprint, diversity & inclusion policies, and governance practices in vendor due diligence.</li><li>Opportunity for RiskRadar AI to extend document parsing beyond cybersecurity to ESG reports, codes of conduct, etc.</li><li>Product should be prepared to handle emerging ESG reporting standards.</li><li>Being a cloud-based AI solution, energy efficiency and responsible AI use could become selling points to ESG-conscious clients.</li></ul>')">
                     <div class="flex items-center mb-3">
                         <div class="p-3 rounded-full bg-teal-500 text-white mr-4">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0zM9 9a2 2 0 100-4 2 2 0 000 4zm0 1a2 2 0 100 4 2 2 0 000-4zm6-3a2 2 0 100-4 2 2 0 000 4zm0 1a2 2 0 100 4 2 2 0 000-4z" /></svg>
                         </div>
                         <h3 class="text-2xl font-semibold text-teal-700">Environmental</h3>
                     </div>
-                    <p class="text-slate-600">Rising ESG compliance creates new validation opportunities. Click to see more.</p>
+                    <p class="text-slate-600">ESG criteria in vendor due diligence expands scope for validation. Click for details.</p>
                 </div>
 
-                <div class="pestel-item bg-slate-100 p-6 rounded-xl shadow-lg cursor-pointer" onclick="showModal('Legal', 'Complex landscape of compliance frameworks (SOC 2, ISO/IEC 27001, NIST 800-53/171, HIPAA, PCI-DSS) and privacy laws (California CCPA/CPRA, other state laws, Canadian updates) drives need for automated validation. SOC 2 demand increasing ~50%. Proliferation of frameworks means extensive documentation to validate.')">
+                <div class="pestel-item bg-slate-100 p-6 rounded-xl shadow-lg cursor-pointer" onclick="showModal('Legal Factors', '<ul class=\'list-disc list-inside modal-content-list\'><li>Organizations navigate a complex landscape of compliance frameworks (SOC 2, ISO/IEC 27001, NIST 800-53/171, industry-specific like HIPAA, PCI-DSS).</li><li>SOC 2 has become a de facto requirement for SaaS companies, with demand for audits increasing ~50%.</li><li>Proliferation of frameworks means extensive documentation (policies, controls, auditor reports) that RiskRadar AI can validate.</li><li>Expanding privacy regulations (California CCPA/CPRA with fines up to hundreds of thousands, other U.S. state laws, Canadian updates) require verification of vendor data protection practices (consent mechanisms, data deletion).</li><li>This fuels demand for tools that automatically cross-check vendor documentation against legal obligations.</li></ul>')">
                      <div class="flex items-center mb-3">
                         <div class="p-3 rounded-full bg-red-500 text-white mr-4">
                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>
                         </div>
                         <h3 class="text-2xl font-semibold text-red-700">Legal</h3>
                     </div>
-                    <p class="text-slate-600">Framework overload and stringent privacy laws fuel demand. Click to see more.</p>
+                    <p class="text-slate-600">Numerous frameworks (SOC 2, ISO) & privacy laws (CCPA) increase documentation burden. Click for details.</p>
                 </div>
             </div>
         </div>
@@ -207,89 +209,103 @@
             <div class="text-center mb-10">
                 <span class="text-2xl font-semibold text-slate-700">Competitive Landscape Score: </span>
                 <span class="text-4xl font-bold text-blue-600"><span class="counter" data-target="6">0</span>/10</span>
-                <p class="text-slate-500 mt-1">Competition is notable; differentiation and smart positioning are critical.</p>
+                <p class="text-slate-500 mt-1">Competition is notable, featuring established players and agile startups. Differentiation and smart positioning are critical for success.</p>
             </div>
 
             <div class="mb-8 flex justify-center space-x-2">
                 <button class="tab-button bg-white text-blue-600 px-6 py-3 rounded-lg shadow font-semibold active" data-tab="red-ocean">Red Ocean Reality</button>
                 <button class="tab-button bg-white text-blue-600 px-6 py-3 rounded-lg shadow font-semibold" data-tab="blue-ocean">Blue Ocean Strategy</button>
+                <button class="tab-button bg-white text-blue-600 px-6 py-3 rounded-lg shadow font-semibold" data-tab="indirect-competitors">Indirect Competitors</button>
             </div>
 
             <div id="red-ocean" class="tab-content bg-white p-8 rounded-xl shadow-xl">
                 <h3 class="text-3xl font-semibold text-red-600 mb-6 text-center">Red Ocean Reality (The Challenges)</h3>
-                <div class="grid md:grid-cols-2 gap-6 items-center">
+                <div class="grid md:grid-cols-2 gap-6 items-start">
                     <div>
-                        <p class="text-lg text-slate-700 mb-4">The third-party risk management market is characterized by intensifying competition and feature convergence.</p>
+                        <p class="text-lg text-slate-700 mb-4">The third-party risk/compliance automation market shows red ocean characteristics with intensifying competition and feature convergence.</p>
+                        <h4 class="font-semibold text-slate-700 mb-2">Key Indicators:</h4>
                         <ul class="list-disc list-inside text-slate-600 space-y-2 mb-4">
-                            <li><strong>Crowded Market:</strong> 5-7+ direct competitors (VISO Trust, Whistic, OneTrust, Prevalent, UpGuard etc.) with many converging on AI features.</li>
-                            <li><strong>Feature Overlap:</strong> Questionnaires, risk scoring, and evidence management are common. Differentiation must go beyond basics.</li>
-                            <li><strong>Incumbent Strength & Agility:</strong> Large GRC platforms are comprehensive but can be costly/complex. Newer AI tools are agile.</li>
-                            <li><strong>Status Quo Inertia:</strong> Over 40% of organizations still primarily rely on spreadsheets, representing both an opportunity and a challenge to change habits.</li>
+                            <li><strong>Direct Competitors:</strong> Several established and emerging players offer overlapping capabilities, including:
+                                <ul class="list-disc list-inside ml-5 mt-1 space-y-1">
+                                    <li><strong>VISO Trust:</strong> AI-powered TPRM, eliminates questionnaires by analyzing security "artifacts". Very similar concept to RiskRadar AI.</li>
+                                    <li><strong>Whistic:</strong> Vendor security profiles, incorporating AI to turn documentation into queryable knowledge base. Existing network of vendors.</li>
+                                    <li><strong>OneTrust:</strong> Market leader in GRC, comprehensive platform with AI-assisted features. Targets larger enterprises.</li>
+                                    <li><strong>Prevalent (Mitratech):</strong> Established TPRM software, workflow automation, some AI. Acquired by Mitratech in 2024.</li>
+                                    <li><strong>UpGuard:</strong> Evolved from security ratings to AI-augmented TPRM, analyzes vendor evidence like SOC 2 reports.</li>
+                                </ul>
+                            </li>
+                            <li><strong>Feature Convergence:</strong> Many vendors offer centralized questionnaires, evidence repositories, risk scoring, and increasingly, AI-assisted analysis (e.g., multiple tools parse SOC 2 reports).</li>
+                            <li><strong>Competitive Rivalry:</strong> High, evidenced by recent consolidation (Mitratech/Prevalent) and at least half a dozen credible direct alternatives.</li>
+                            <li><strong>Pricing Pressure:</strong> Newer entrants may undercut legacy players; incumbents bundle features.</li>
                         </ul>
-                        <p class="text-slate-700 font-medium">Entering with a similar value proposition means a tough fight for mindshare and price wars.</p>
+                        <p class="text-slate-700 font-medium">Entering with an undifferentiated value proposition would likely lead to intense competition for market share and price wars.</p>
                     </div>
-                    <div class="flex justify-center">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-48 w-48 text-red-400" viewBox="0 0 20 20" fill="currentColor">
+                    <div class="flex flex-col items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-40 w-40 text-red-400 mb-2" viewBox="0 0 20 20" fill="currentColor">
                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM7 9a1 1 0 000 2h6a1 1 0 100-2H7z" clip-rule="evenodd" />
                             <path d="M10 2a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5A.75.75 0 0110 2zM5.22 6.22a.75.75 0 011.06 0l1.062 1.06a.75.75 0 01-1.06 1.06L5.22 7.28a.75.75 0 010-1.06zM2.25 10a.75.75 0 01.75-.75h1.5a.75.75 0 010 1.5h-1.5a.75.75 0 01-.75-.75zM5.22 13.78a.75.75 0 010-1.06l1.06-1.062a.75.75 0 111.06 1.06L6.28 14.84a.75.75 0 01-1.06 0zM10 17.75a.75.75 0 01-.75-.75v-1.5a.75.75 0 011.5 0v1.5a.75.75 0 01-.75.75zM13.72 14.84a.75.75 0 01-1.06 0L11.6 13.72a.75.75 0 111.06-1.06l1.062 1.06a.75.75 0 010 1.06zM17.75 10a.75.75 0 01-.75.75h-1.5a.75.75 0 010-1.5h1.5a.75.75 0 01.75.75zM14.84 6.22a.75.75 0 010 1.06L13.78 8.34a.75.75 0 01-1.06-1.06L13.78 5.16a.75.75 0 011.06 0z" />
                         </svg>
-                        <p class="text-center text-sm text-red-500 mt-2">A crowded space with intense rivalry.</p>
+                        <p class="text-center text-sm text-red-500">A crowded space with intense rivalry and converging features.</p>
                     </div>
                 </div>
             </div>
 
             <div id="blue-ocean" class="tab-content bg-white p-8 rounded-xl shadow-xl hidden">
                 <h3 class="text-3xl font-semibold text-blue-700 mb-6 text-center">Blue Ocean Strategy (The Opportunities)</h3>
-                <div class="grid md:grid-cols-2 gap-6 items-center">
+                <div class="grid md:grid-cols-2 gap-6 items-start">
                      <div>
-                        <p class="text-lg text-slate-700 mb-4">Despite crowding, opportunities exist by creating new market space and focusing on unmet needs.</p>
-                        <p class="text-slate-700 font-semibold mb-2">Key Differentiators for RiskRadar AI:</p>
-                        <ul class="list-disc list-inside text-slate-600 space-y-2 mb-4">
-                            <li><strong>Target Underserved Segments:</strong> Focus on mid-sized companies lacking dedicated teams or expensive GRC tools, often stuck with spreadsheets.</li>
-                            <li><strong>Superior Automation & Low Vendor Friction:</strong> True AI-driven document analysis, minimizing manual input and eliminating lengthy questionnaires for vendors.</li>
-                            <li><strong>Comprehensive Compliance, Simplified:</strong> Broad framework coverage (SOC 2, ISO, NIST etc.) with an easy-to-use, affordable SaaS model.</li>
-                            <li><strong>Holistic Risk View (Future Potential):</strong> Expand beyond cyber to legal, privacy, and ESG metrics from documents.</li>
+                        <p class="text-lg text-slate-700 mb-4">Despite crowding, blue ocean opportunities exist by creating new value and targeting underserved market segments.</p>
+                        <h4 class="font-semibold text-slate-700 mb-2">Key Differentiators & Strategies for RiskRadar AI:</h4>
+                        <ul class="list-disc list-inside text-slate-600 space-y-3 mb-4">
+                            <li><strong>Target Underserved Segments:</strong> Focus on mid-sized companies (and smaller enterprises) that feel compliance pressures but lack dedicated vendor risk teams or expensive GRC tools. Over 40% still use spreadsheets. RiskRadar can offer an affordable, easy-to-deploy validator.</li>
+                            <li><strong>Unique Value Factors:</strong>
+                                <ul class="list-disc list-inside ml-5 mt-1 space-y-1">
+                                    <li><strong>Depth & Breadth:</strong> Go beyond just security controls to parse legal/privacy terms and ESG metrics, offering a more holistic risk view.</li>
+                                    <li><strong>Real-time Continuous Validation (Potential):</strong> Monitor changes in vendor documentation/certifications, moving beyond periodic snapshots.</li>
+                                    <li><strong>Vendor-Friendly Approach:</strong> Minimize friction by obtaining docs via AI-driven self-service or integration with vendor trust pages, truly acting like "radar" in the background, eliminating painful questionnaires.</li>
+                                </ul>
+                            </li>
+                            <li><strong>Distinct Value Curve:</strong> Emphasize high automation, AI-driven analysis depth, low vendor friction, ease of implementation, and cost efficiency for the mid-market.</li>
                         </ul>
-                        <p class="text-slate-700 font-medium">By offering a unique value curve (high automation, ease of use, affordability for mid-market), RiskRadar AI can carve out new demand.</p>
+                        <p class="text-slate-700 font-medium">This approach aims to create and capture new demand, sidestepping direct battles by solving pain points (speed, ease, cost) that larger competitors may overlook for certain segments.</p>
                     </div>
-                    <div class="flex justify-center">
-                         <svg xmlns="http://www.w3.org/2000/svg" class="h-48 w-48 text-blue-400" viewBox="0 0 20 20" fill="currentColor">
+                    <div class="flex flex-col items-center">
+                         <svg xmlns="http://www.w3.org/2000/svg" class="h-40 w-40 text-blue-400 mb-2" viewBox="0 0 20 20" fill="currentColor">
                             <path d="M10 12a2 2 0 100-4 2 2 0 000 4z" />
                             <path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd" />
                         </svg>
-                         <p class="text-center text-sm text-blue-500 mt-2">Creating uncontested market space.</p>
+                         <p class="text-center text-sm text-blue-500">Creating uncontested market space through differentiation.</p>
                     </div>
                 </div>
                  <div class="mt-8 pt-6 border-t border-slate-200">
                     <h4 class="text-xl font-semibold text-slate-700 mb-4 text-center">Simplified Strategy Canvas: RiskRadar AI vs. Alternatives</h4>
                     <div class="space-y-3">
-                        <div class="text-sm">
-                            <span class="font-medium">Automation Level:</span>
-                            <div class="w-full bg-slate-200 rounded-full h-4 mt-1">
-                                <div class="bg-blue-600 h-4 rounded-full" style="width: 90%;"><span class="text-xs text-white pl-2">RiskRadar AI (High)</span></div>
-                            </div>
-                            <div class="w-full bg-slate-200 rounded-full h-4 mt-1">
-                                <div class="bg-red-500 h-4 rounded-full" style="width: 50%;"><span class="text-xs text-white pl-2">Typical GRC (Medium)</span></div>
-                            </div>
-                        </div>
-                        <div class="text-sm">
-                            <span class="font-medium">Vendor Friction:</span>
-                             <div class="w-full bg-slate-200 rounded-full h-4 mt-1">
-                                <div class="bg-blue-600 h-4 rounded-full" style="width: 20%;"><span class="text-xs text-white pl-2">RiskRadar AI (Very Low)</span></div>
-                            </div>
-                            <div class="w-full bg-slate-200 rounded-full h-4 mt-1">
-                                <div class="bg-red-500 h-4 rounded-full" style="width: 80%;"><span class="text-xs text-white pl-2">Typical GRC (High)</span></div>
-                            </div>
-                        </div>
-                        <div class="text-sm">
-                            <span class="font-medium">Cost Efficiency (for Mid-Market):</span>
-                            <div class="w-full bg-slate-200 rounded-full h-4 mt-1">
-                                <div class="bg-blue-600 h-4 rounded-full" style="width: 85%;"><span class="text-xs text-white pl-2">RiskRadar AI (High)</span></div>
-                            </div>
-                             <div class="w-full bg-slate-200 rounded-full h-4 mt-1">
-                                <div class="bg-red-500 h-4 rounded-full" style="width: 30%;"><span class="text-xs text-white pl-2">Typical GRC (Low)</span></div>
-                            </div>
-                        </div>
+                        <div><span class="font-medium">Automation Level (AI-Driven Analysis):</span> RiskRadar AI (High - core feature, advanced NLP/ML for deep analysis) vs. Typical GRC (Medium - some AI for form filling, not deep analysis by default).</div>
+                        <div><span class="font-medium">Vendor Friction (Effort for Vendors):</span> RiskRadar AI (Very Low - share existing docs, AI extracts answers) vs. Typical GRC (High - extensive questionnaires).</div>
+                        <div><span class="font-medium">Ease of Implementation (for Mid-Market):</span> RiskRadar AI (High - cloud SaaS, quick setup) vs. Typical GRC (Medium - complex configuration).</div>
+                        <div><span class="font-medium">Cost Efficiency (for Mid-Market):</span> RiskRadar AI (High - affordable, geared to mid-size budgets) vs. Typical GRC (Low - premium pricing).</div>
+                    </div>
+                </div>
+            </div>
+             <div id="indirect-competitors" class="tab-content bg-white p-8 rounded-xl shadow-xl hidden">
+                <h3 class="text-3xl font-semibold text-orange-600 mb-6 text-center">Indirect Competitors & Status Quo</h3>
+                <div class="grid md:grid-cols-2 gap-6 items-start">
+                    <div>
+                        <h4 class="font-semibold text-slate-700 mb-2 text-xl">Security Ratings Services</h4>
+                        <ul class="list-disc list-inside text-slate-600 space-y-2 mb-4">
+                            <li>Companies like <strong>BitSight</strong> and <strong>SecurityScorecard</strong> provide external cyber risk scores by scanning internet-facing systems.</li>
+                            <li>Often used as a proxy for vendor security posture, competing for the same budget by offering a simpler (though narrower) risk view.</li>
+                            <li>RiskRadar AI could complement these, but clients prioritizing ongoing risk indication might favor a ratings approach over documentation analysis.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="font-semibold text-slate-700 mb-2 text-xl">In-House Manual Processes</h4>
+                        <ul class="list-disc list-inside text-slate-600 space-y-2 mb-4">
+                            <li>A significant "competitor" is the status quo: many firms (especially mid-sized) use spreadsheets, emails, and internal staff/consultants.</li>
+                            <li>Over <strong>40%</strong> of organizations still primarily rely on spreadsheets for third-party risk management.</li>
+                            <li>These methods have high labor costs and scalability issues but are entrenched due to habit and perceived control.</li>
+                            <li>Convincing organizations to switch requires demonstrating clear improvements in accuracy, efficiency, and ROI.</li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -302,33 +318,51 @@
             <div class="text-center mb-12">
                 <span class="text-2xl font-semibold text-slate-700">Market Sizing Score: </span>
                 <span class="text-4xl font-bold text-blue-600"><span class="counter" data-target="9">0</span>/10</span>
-                <p class="text-slate-500 mt-1">Strong market potential with high growth; the pie is large enough for a new player.</p>
+                <p class="text-slate-500 mt-1">Strong market potential with high growth and substantial revenue pool. The pie is large enough for a new, well-positioned player.</p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-                <div class="bg-slate-100 p-8 rounded-xl shadow-lg">
-                    <h3 class="text-2xl font-semibold text-blue-800 mb-3">TAM</h3>
-                    <p class="text-slate-500 mb-1 text-sm">(Total Addressable Market - NA, 2025)</p>
-                    <div class="kpi-value text-blue-600 mb-2">~$<span class="counter" data-target="3.25" data-decimals="2">0</span>B</div>
-                    <p class="text-slate-600 text-sm">All third-party risk & compliance automation spend. Global market: $8.3B (2024) to ~$18.7B (2030).</p>
+                <div class="bg-slate-100 p-8 rounded-xl shadow-lg flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-2xl font-semibold text-blue-800 mb-3">TAM</h3>
+                        <p class="text-slate-500 mb-1 text-sm">(Total Addressable Market - North America)</p>
+                        <div class="kpi-value text-blue-600 mb-2">~$<span class="counter" data-target="3.25" data-decimals="2">0</span>B</div>
+                        <p class="text-slate-600 text-sm mb-1">Estimated for 2025 (NA TPRM market valued ~ $2.6B in 2024, growing at mid-20% CAGR).</p>
+                        <p class="text-slate-600 text-xs">Encompasses all industries and solution types for vendor risk and compliance.</p>
+                    </div>
+                    <p class="text-slate-500 text-xs mt-3">Global TPRM market: $8.3B (2024) to ~$18.7B (2030), projected to $19.9B by 2030 according to other sources.</p>
                 </div>
-                <div class="bg-blue-600 text-white p-8 rounded-xl shadow-2xl transform md:scale-110">
-                    <h3 class="text-2xl font-semibold mb-3">SAM</h3>
-                    <p class="text-blue-100 mb-1 text-sm">(Serviceable Available Market - NA, 2025)</p>
-                    <div class="kpi-value mb-2">~$<span class="counter" data-target="700" data-format-mb="M">0</span>M</div>
-                    <p class="text-blue-200 text-sm">RiskRadar's focus: Mid-market & automation-seeking firms for security doc validation. (~20% of TAM)</p>
+                <div class="bg-blue-600 text-white p-8 rounded-xl shadow-2xl transform md:scale-110 flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-2xl font-semibold mb-3">SAM</h3>
+                        <p class="text-blue-100 mb-1 text-sm">(Serviceable Available Market - North America)</p>
+                        <div class="kpi-value mb-2">~$<span class="counter" data-target="700" data-format-mb="M">0</span>M</div>
+                        <p class="text-blue-200 text-sm mb-1">Estimated for 2025 (approx. 20-30% of TAM).</p>
+                        <p class="text-blue-200 text-xs">Focus: NA mid-sized and enterprise companies using SaaS/third-party tech, lacking efficient compliance automation, and are early adopters (tech, finance, healthcare, SaaS vendors themselves).</p>
+                    </div>
+                    <p class="text-blue-300 text-xs mt-3">Targets organizations with acute pain points (overburdened teams, frequent assessments for SOC 2/NIST).</p>
                 </div>
-                <div class="bg-slate-100 p-8 rounded-xl shadow-lg">
-                    <h3 class="text-2xl font-semibold text-teal-800 mb-3">SOM</h3>
-                    <p class="text-slate-500 mb-1 text-sm">(Serviceable Obtainable Market - 1-3 Years)</p>
-                    <div class="kpi-value text-teal-600 mb-2">~$<span class="counter" data-target="5" data-format-mb="M">0</span>M ARR</div>
-                    <p class="text-slate-600 text-sm">Realistic target (e.g. 100+ clients @ ~$25-50k). A small but meaningful beachhead.</p>
+                <div class="bg-slate-100 p-8 rounded-xl shadow-lg flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-2xl font-semibold text-teal-800 mb-3">SOM</h3>
+                        <p class="text-slate-500 mb-1 text-sm">(Serviceable Obtainable Market - 1-3 Years)</p>
+                        <div class="kpi-value text-teal-600 mb-2">~$<span class="counter" data-target="5" data-format-mb="M">0</span>M ARR</div>
+                        <p class="text-slate-600 text-sm mb-1">Achievable share of SAM (approx. 0.5%-1%).</p>
+                        <p class="text-slate-600 text-xs">Example: 100-200 organizations at an average annual subscription of $25k-$50k. Represents a viable business with growth potential.</p>
+                    </div>
+                    <p class="text-slate-500 text-xs mt-3">Assumes focused niche strategy, efficient customer acquisition (e.g., partners), and manageable sales cycles (3-6 months).</p>
                 </div>
             </div>
             
-            <div class="mt-12 text-center">
-                <p class="text-lg text-slate-700">Only ~<span class="font-bold text-blue-600">16%</span> of organizations consider their TPRM programs fully effective, suggesting most of the TAM remains open for new solutions.</p>
-                <p class="text-lg text-slate-700 mt-2">North American TPRM market valued around ~<span class="font-bold text-blue-600">$2.6 billion</span> in 2024, with mid-20% CAGR.</p>
+            <div class="mt-12 text-center space-y-3">
+                <p class="text-lg text-slate-700">Key Market Receptivity Indicators:</p>
+                <ul class="list-none text-slate-600">
+                    <li>Only ~<strong>16%</strong> of organizations today consider their TPRM programs fully effective (source: OneTrust/Liminal).</li>
+                    <li>~<strong>9%</strong> of organizations have advanced TPRM maturity today (source: Liminal).</li>
+                    <li><strong>86%</strong> of risk practitioners prioritize data accuracy.</li>
+                    <li><strong>82%</strong> call automation critical to TPRM.</li>
+                </ul>
+                <p class="text-md text-slate-500">The North American market could approach <strong>$5B</strong> by the late 2020s if current trends hold.</p>
             </div>
         </div>
     </section>
@@ -338,55 +372,68 @@
             <h2 class="section-title text-white">The Path Forward: Decision & Strategic Actions</h2>
             <div class="text-center mb-10">
                 <div class="inline-block bg-white/20 backdrop-blur-sm p-6 rounded-xl shadow-xl mb-4">
-                    <span class="text-3xl font-bold text-white">Overall Viability Score: </span>
-                    <span class="text-5xl font-bold text-teal-300"><span class="counter" data-target="7.7">0</span>/10</span>
+                    <span class="text-3xl font-bold text-white">Composite Viability Score: </span>
+                    <span class="text-5xl font-bold text-teal-300"><span class="counter" data-target="7.7" data-decimals="1">0</span>/10</span>
                 </div>
                 <p class="text-3xl font-bold text-teal-300 mb-6 pulse-go">VERDICT: GO</p>
-                <p class="text-xl text-indigo-100 max-w-2xl mx-auto">The market is hungry for solutions that automate and simplify third-party security compliance. With a differentiated game plan, RiskRadar AI can carve out a successful niche.</p>
+                <p class="text-xl text-indigo-100 max-w-2xl mx-auto">The analysis indicates the market is hungry for solutions that automate and simplify third-party security compliance. The problem's intensity will grow in the next 1-3 years, creating a window for a well-tailored product. While competition exists, it is not insurmountable; its presence validates the market.</p>
             </div>
 
             <h3 class="text-3xl font-semibold text-center text-white mb-8">Top 2 Strategic Actions (Next Steps):</h3>
             <div class="grid md:grid-cols-2 gap-8">
-                <div class="bg-white/10 backdrop-blur-md p-8 rounded-xl shadow-lg">
+                <div class="bg-white/10 backdrop-blur-md p-8 rounded-xl shadow-lg flex flex-col">
                     <div class="flex items-center mb-4">
                         <div class="p-3 rounded-full bg-teal-400 text-teal-800 mr-4">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" /><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
                         </div>
                         <h4 class="text-2xl font-semibold text-white">1. Niche Targeting & Blue-Ocean Positioning</h4>
                     </div>
-                    <p class="text-indigo-100 mb-3">Immediately refine go-to-market focus to mid-sized tech and financial companies lacking robust vendor risk teams.</p>
-                    <p class="text-indigo-100"><span class="font-semibold text-teal-200">Messaging Focus:</span> "No more tedious questionnaires, no more backlog - get instant validation of your vendors' security." Emphasize AI depth, low vendor burden, speed, and ease of use.</p>
+                    <p class="text-indigo-100 mb-3">Immediately refine RiskRadar's go-to-market focus to the sweet spot: mid-sized tech and financial companies that lack robust vendor risk teams but face significant compliance demands.</p>
+                    <p class="text-indigo-100 mb-2"><span class="font-semibold text-teal-200">Messaging Focus:</span> Craft messaging that emphasizes "No more tedious questionnaires, no more backlog - get instant validation of your vendors' security." Highlight unique differentiators:</p>
+                    <ul class="list-disc list-inside text-indigo-200 pl-5 space-y-1 text-sm">
+                        <li>AI-driven depth in document analysis.</li>
+                        <li>Extremely low vendor burden (no questionnaires).</li>
+                        <li>Speed and ease of use for rapid security vetting.</li>
+                    </ul>
+                    <p class="text-indigo-100 mt-2 text-sm">Solve pain points (speed, ease, cost) that larger competitors overlook for this segment. Develop case studies in a specific industry to dominate that niche before expanding.</p>
                 </div>
 
-                <div class="bg-white/10 backdrop-blur-md p-8 rounded-xl shadow-lg">
+                <div class="bg-white/10 backdrop-blur-md p-8 rounded-xl shadow-lg flex flex-col">
                      <div class="flex items-center mb-4">
                         <div class="p-3 rounded-full bg-teal-400 text-teal-800 mr-4">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.653-.08-.99-.225-1.285A5.002 5.002 0 0012 15c-2.761 0-5 2.239-5 5v2h10zM12 15V9m0 2.221A2.98 2.98 0 009 9c0-1.657 1.343-3 3-3s3 1.343 3 3c0 .778-.295 1.496-.779 2.021M12 9V7m0-6h.008v.008H12V1z" /></svg>
                         </div>
                         <h4 class="text-2xl font-semibold text-white">2. Strategic Partnerships & Credibility Building</h4>
                     </div>
-                    <p class="text-indigo-100 mb-3">Pursue partnerships to accelerate adoption and build trust in AI and compliance capabilities.</p>
-                    <p class="text-indigo-100"><span class="font-semibold text-teal-200">Examples:</span> Trusted audit firms, cybersecurity consultancies, integration with GRC tools or security rating platforms (e.g., SecurityScorecard), and alliances with industry groups (ISACA, Cloud Security Alliance).</p>
+                    <p class="text-indigo-100 mb-3">Given the importance of trust in AI and compliance, pursue partnerships to accelerate adoption, build credibility, and overcome skepticism about a new AI-driven approach.</p>
+                    <p class="text-indigo-100 mb-2"><span class="font-semibold text-teal-200">Partnership Examples:</span></p>
+                     <ul class="list-disc list-inside text-indigo-200 pl-5 space-y-1 text-sm">
+                        <li><strong>Trusted Audit Firms/Cybersecurity Consultancies:</strong> To co-validate RiskRadar's assessments, reassuring potential clients about accuracy.</li>
+                        <li><strong>Integration Partners:</strong> With platforms like SecurityScorecard or GRC tools to embed RiskRadar into existing workflows and provide broader value (e.g., combining external scores with internal doc validation).</li>
+                        <li><strong>Industry Groups:</strong> Alliances with organizations like Cloud Security Alliance working groups or ISACA chapters to evangelize the solution and gain endorsements.</li>
+                    </ul>
+                     <p class="text-indigo-100 mt-2 text-sm">These alliances will help accelerate market penetration and build RiskRadar's reputation as an innovator.</p>
                 </div>
             </div>
-             <p class="text-center text-indigo-100 mt-12 text-lg max-w-3xl mx-auto">By focusing on these strategic actions, RiskRadar AI can effectively launch and scale, becoming a "radar" for risk that North American companies rely on to navigate the ever-growing maze of security compliance.</p>
+             <p class="text-center text-indigo-100 mt-12 text-lg max-w-3xl mx-auto">By focusing on these strategic actions, RiskRadar AI can effectively launch and scale in a way that maximizes its strengths and mitigates challenges. With the right execution, RiskRadar AI can become a "radar" for risk that North American companies rely on to navigate the ever-growing maze of security compliance.</p>
         </div>
     </section>
 
     <footer class="bg-slate-800 text-slate-300 py-12 text-center">
         <p>&copy; <span id="currentYear"></span> RiskRadar AI Viability Analysis. For informational purposes only.</p>
         <p class="text-sm mt-1">Data derived from "RiskRadar AI Viability Analysis (North America, 1–3 Year Outlook)" document.</p>
+        <p class="text-xs mt-2">Source document references multiple external reports and surveys for statistics.</p>
     </footer>
 
     <div id="pestelModal" class="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center p-4 z-50 hidden">
-        <div class="bg-white p-8 rounded-lg shadow-2xl max-w-2xl w-full max-h-[80vh] overflow-y-auto">
+        <div class="bg-white p-6 sm:p-8 rounded-lg shadow-2xl max-w-2xl w-full max-h-[85vh] overflow-y-auto">
             <div class="flex justify-between items-center mb-4">
-                <h3 id="modalTitle" class="text-2xl font-semibold text-blue-700"></h3>
+                <h3 id="modalTitle" class="text-xl sm:text-2xl font-semibold text-blue-700"></h3>
                 <button onclick="closeModal()" class="text-slate-500 hover:text-slate-700">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" /></svg>
                 </button>
             </div>
-            <p id="modalContent" class="text-slate-600 leading-relaxed"></p>
+            <div id="modalContent" class="text-slate-600 leading-relaxed text-sm sm:text-base"></div>
         </div>
     </div>
 
@@ -398,26 +445,18 @@
             mobileMenu.classList.toggle('hidden');
         });
 
-        // Smooth scroll for anchor links in mobile menu
-        document.querySelectorAll('#mobile-menu a[href^="#"]').forEach(anchor => {
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
-                mobileMenu.classList.add('hidden'); // Close menu on click
+                if (mobileMenu.contains(anchor)) { // If link is in mobile menu
+                    mobileMenu.classList.add('hidden'); // Close menu on click
+                }
                 document.querySelector(this.getAttribute('href')).scrollIntoView({
                     behavior: 'smooth'
                 });
             });
         });
-         // Smooth scroll for desktop anchor links
-        document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
-            });
-        });
-
 
         // PESTEL Modal
         const pestelModal = document.getElementById('pestelModal');
@@ -426,7 +465,8 @@
 
         function showModal(title, content) {
             modalTitle.textContent = title;
-            modalContent.innerHTML = content.replace(/\n/g, '<br>'); // Preserve line breaks if any
+            // Content is already HTML with <ul>, so just set it
+            modalContent.innerHTML = content; 
             pestelModal.classList.remove('hidden');
             document.body.style.overflow = 'hidden'; // Prevent background scrolling
         }
@@ -443,7 +483,7 @@
         });
         // Close modal on outside click
         pestelModal.addEventListener('click', function(event) {
-            if (event.target === pestelModal) {
+            if (event.target === pestelModal) { // Check if the click is on the modal backdrop itself
                 closeModal();
             }
         });
@@ -473,22 +513,44 @@
         function animateCounter(element, target, duration = 1500, decimals = 0, formatMB = null) {
             let start = 0;
             const finalTarget = parseFloat(target);
-            const increment = finalTarget / (duration / 16); // Assuming 60fps, so 16ms per frame
+            // Avoid division by zero if duration is too short or target is 0
+            const increment = (duration > 0 && finalTarget !== 0) ? finalTarget / (duration / 16) : finalTarget;
+
 
             function updateCounter() {
-                start += increment;
-                if (start < finalTarget) {
-                    let displayValue = start.toFixed(decimals);
-                    if (formatMB === "M") displayValue += "M";
-                    else if (formatMB === "B") displayValue += "B";
-                    element.textContent = displayValue;
-                    requestAnimationFrame(updateCounter);
-                } else {
-                    let displayValue = finalTarget.toFixed(decimals);
-                     if (formatMB === "M") displayValue += "M";
-                    else if (formatMB === "B") displayValue += "B";
-                    element.textContent = displayValue;
+                if (increment > 0) { // Counting up
+                    start += increment;
+                    if (start >= finalTarget) {
+                        start = finalTarget;
+                    }
+                } else { // Counting down (or target is 0)
+                     start -= increment; // increment is negative or zero
+                    if (start <= finalTarget) {
+                        start = finalTarget;
+                    }
                 }
+                
+                let displayValue = start.toFixed(decimals);
+                if (formatMB === "M") displayValue += "M";
+                else if (formatMB === "B") displayValue += "B";
+                element.textContent = displayValue;
+
+                if ((increment > 0 && start < finalTarget) || (increment < 0 && start > finalTarget)) {
+                    requestAnimationFrame(updateCounter);
+                } else { // Animation finished
+                    let finalDisplayValue = finalTarget.toFixed(decimals);
+                    if (formatMB === "M") finalDisplayValue += "M";
+                    else if (formatMB === "B") finalDisplayValue += "B";
+                    element.textContent = finalDisplayValue;
+                }
+            }
+            // If target is 0, set immediately without animation
+            if (finalTarget === 0) {
+                 let displayValue = finalTarget.toFixed(decimals);
+                 if (formatMB === "M") displayValue += "M";
+                 else if (formatMB === "B") displayValue += "B";
+                 element.textContent = displayValue;
+                 return;
             }
             updateCounter();
         }
@@ -500,7 +562,7 @@
             threshold: 0.1 // Trigger when 10% of the element is visible
         };
 
-        const observerCallback = (entries, observer) => {
+        const observerCallback = (entries, observerInstance) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
                     // Fade-in animation for sections
@@ -512,19 +574,19 @@
                         if (!counter.dataset.animated) { // Animate only once
                             const target = parseFloat(counter.dataset.target);
                             const decimals = parseInt(counter.dataset.decimals) || 0;
-                            const formatMB = counter.dataset.formatMb || null;
+                            const formatMB = counter.dataset.formatMb || null; // Corrected attribute name
                             animateCounter(counter, target, 1500, decimals, formatMB);
                             counter.dataset.animated = true; // Mark as animated
                         }
                     });
-                    // observer.unobserve(entry.target); // Optional: stop observing after animation
+                    // observerInstance.unobserve(entry.target); // Optional: stop observing after animation if not needed for re-trigger
                 }
             });
         };
 
-        const observer = new IntersectionObserver(observerCallback, observerOptions);
+        const intersectionObserver = new IntersectionObserver(observerCallback, observerOptions);
         const sectionsToAnimate = document.querySelectorAll('.fade-in-section');
-        sectionsToAnimate.forEach(section => observer.observe(section));
+        sectionsToAnimate.forEach(section => intersectionObserver.observe(section));
         
         // Set current year in footer
         document.getElementById('currentYear').textContent = new Date().getFullYear();
